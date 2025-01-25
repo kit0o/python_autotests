@@ -4,7 +4,7 @@ import json
 #Автотесты на сайт pokemonbattle.ru
 
 URL = 'https://api.pokemonbattle.ru/v2'
-TOKEN = '2f0c951500b4c39b6947f1e21dd16bc6'
+TOKEN = 'yourTokenHere'
 HEADER = {'Content-Type' : 'application/json',
           'trainer_token': TOKEN}
 body_create_a_pokemon = {
